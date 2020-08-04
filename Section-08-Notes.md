@@ -1,8 +1,8 @@
 - [ ] 08 02:04:39 | More on Arrays & Iterables
-- [ ] 183 01 Module Introduction | 01:08
-184 02 What are "Iterables" & "Array-like Objects"? | 02:11
-185 03 Creating Arrays | 08:55
-186 04 Which Data Can You Store In Arrays? | 03:47
+  - [ ] 183 01 Module Introduction | 01:08
+  - [ ] 184 02 What are "Iterables" & "Array-like Objects"? | 02:11
+  - [ ] 185 03 Creating Arrays | 08:55
+  - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
 187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
 188 06 The splice() Method | 05:37
 189 07 Selecting Ranges & Creating Copies with slice() | 06:06
@@ -14,7 +14,7 @@
 195 13 Transforming Data with map() | 02:38
 196 14 sort()ing and reverse()ing | 04:15
 197 15 Filtering Arrays with filter() | 02:35
-198 16 Where Arrow Functions Shine! | 01:31
+  - [ ] 198 16 Where Arrow Functions Shine! | 01:31
 199 17 The Important reduce() Method | 07:33
 200 18 Chaining Methods in JavaScript | 00:48
 201 19 Arrays & Strings - split() and join() | 04:21
