@@ -3,12 +3,12 @@
   - [ ] 184 02 What are "Iterables" & "Array-like Objects"? | 02:11
   - [ ] 185 03 Creating Arrays | 08:55
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
-187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
-188 06 The splice() Method | 05:37
-189 07 Selecting Ranges & Creating Copies with slice() | 06:06
-190 08 Adding Arrays to Arrays with concat() | 02:23
-191 09 Rtrvg Idxes w indexOf() /& lastIndexOf() | 03:47
-192 10 Finding Stuff: find() and findIndex() | 05:20
+  - [ ] 187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
+  - [ ] 188 06 The splice() Method | 05:37
+  - [ ] 189 07 Selecting Ranges & Creating Copies with slice() | 06:06
+  - [ ] 190 08 Adding Arrays to Arrays with concat() | 02:23
+  - [ ] 191 09 Rtrvg Idxes w indexOf() /& lastIndexOf() | 03:47
+  - [ ] 192 10 Finding Stuff: find() and findIndex() | 05:20
 193 11 Is it Included? | 01:20
 194 12 Alt to for Loops: The forEach() Method | 04:24
 195 13 Transforming Data with map() | 02:38
