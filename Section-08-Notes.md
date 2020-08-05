@@ -77,6 +77,11 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
   
   hobbies.shift(); // Removes the first element of the array
   ```
+  
+  - Why "shift" or "unshift"?
+  - [<strike>'A'</strike>, 'B', 'C', 'D'] // Shift to the left
+  - [place element in new spot, 'A', 'B', 'C', 'D'] // Unshift to the right
+
   - [ ] 188 06 The splice() Method | 05:37
   - [ ] 189 07 Selecting Ranges & Creating Copies with slice() | 06:06
   - [ ] 190 08 Adding Arrays to Arrays with concat() | 02:23
