@@ -15,6 +15,19 @@
       - Have a length
       - Use indexes to access items
   - [ ] 185 03 Creating Arrays | 08:55
+    - const arr = [1];
+    - const arr = Array(1);
+    - const arr = new Array(1);
+    - const arr = ['Hi'];
+    - const arr = Array('Hi');
+    - const arr = new Array('Hi');
+    - const arr = Array.of(1);
+    - const arr = Array.of('Hi');
+    - const arr = Array.from(1);
+    - const arr = Array.from('Hi');
+```javascript
+const numbers = [1, 2, 3];
+```
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
   - [ ] 187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
   - [ ] 188 06 The splice() Method | 05:37
