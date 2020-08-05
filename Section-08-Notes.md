@@ -43,7 +43,7 @@ const yetMoreNumbers = new Array.of(1, 2); // Slower performance
 
 const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-like objects as parameters
                                               // Used for converting a non-array iterable into an array
-                                              // Is there a tool for changing it back?
+                                              // Is there a tool for converting from array to NodeList?
 ```
 
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
