@@ -97,7 +97,7 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
     
     const storedResults = testResults.slice(0, 2); // storedResults contents: [1, 5.3]
     
-    
+    const storedResults = testResults.slice(2); // storedResults contents: [1.5, 10.99, -5, 10], index 2 to the end of the array
     
   - [ ] 190 08 Adding Arrays to Arrays with concat() | 02:23
   - [ ] 191 09 Rtrvg Idxes w indexOf() & lastIndexOf() | 03:47
