@@ -85,10 +85,20 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
   - [ ] 188 06 The splice() Method | 05:37
   
   ```javascript
-  hobbies.splice();
+  hobbies.splice(startIndex, itemsToDelete, replaceables); // Only available on real arrays
   ```
   
   - [ ] 189 07 Selecting Ranges & Creating Copies with slice() | 06:06
+    - const testResults = [1, 5.3, 1.5, 10.99, -5, 10];
+    
+    const copiedArray = testResults.slice(); // A brand-new array! Not a shared reference
+    
+    - Selecting a PART of an array
+    
+    const storedResults = testResults.slice(0, 2); // storedResults contents: [1, 5.3]
+    
+    
+    
   - [ ] 190 08 Adding Arrays to Arrays with concat() | 02:23
   - [ ] 191 09 Rtrvg Idxes w indexOf() & lastIndexOf() | 03:47
   - [ ] 192 10 Finding Stuff: find() and findIndex() | 05:20
