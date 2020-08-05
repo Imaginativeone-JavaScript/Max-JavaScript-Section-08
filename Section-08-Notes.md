@@ -14,7 +14,7 @@
     - What's an "Array-Like Object"?
       - Have a length
       - Use indexes to access items
-  - [ ] 185 03 Creating Arrays | 08:55
+  - [x] 185 03 Creating Arrays | 08:55
     - const arr = [1];
     - const arr = Array(1);
     - const arr = new Array(1);
@@ -28,7 +28,7 @@
 ```javascript
 const numbers = [1, 2, 3]; // trailing commas work. Does that create a new element? No. Most common
 ```
-Alternative Techniques for Creating Arrays
+### Alternative Techniques for Creating Arrays
 
 ```javascript
 const moreNumbers = new Array(); // []
@@ -47,6 +47,23 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
 ```
 
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
+    - numbers, strings, objects
+    
+    ```javascript
+    const hobbies = ['Cooking', 'Sports'];              // uniform data
+    const personalData = [30, 'Doug', {moreDetail:[]}]; // mixed data
+    
+    const analyticsData = [[1, 1.6], [-5.4, 2.1]];      // nested/multidimensional data
+                                                        // be careful to not use non-array elements
+    
+    for (const data of analyticsData) {
+      for (const dataPoint of data) {
+        console.log(dataPoint);
+      }
+    }
+    ```
+    - Arrays are "index-based"
+    
   - [ ] 187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
   - [ ] 188 06 The splice() Method | 05:37
   - [ ] 189 07 Selecting Ranges & Creating Copies with slice() | 06:06
