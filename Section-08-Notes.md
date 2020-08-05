@@ -26,8 +26,22 @@
     - const arr = Array.from(1);
     - const arr = Array.from('Hi');
 ```javascript
-const numbers = [1, 2, 3];
+const numbers = [1, 2, 3]; // trailing commas work. Does that create a new element? No. Most common
 ```
+Alternative Techniques for Creating Arrays
+
+```javascript
+const moreNumbers = new Array(); // []
+
+const moreNumbers = new Array('Hi', 'Welcome'); // Array of length 2
+
+const moreNumbers = new Array(1, 5); // Array of length 2
+
+const moreNumbers = new Array(5); // Array of length 5, with empty elements
+
+const yetMoreNumbers = new Array.of(1, 2); // Slower performance
+```
+
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
   - [ ] 187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
   - [ ] 188 06 The splice() Method | 05:37
