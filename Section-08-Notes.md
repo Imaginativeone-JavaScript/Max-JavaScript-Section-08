@@ -1,5 +1,11 @@
 - [ ] 08 02:04:39 | More on Arrays & Iterables
   - [ ] 183 01 Module Introduction | 01:08
+    - Arrays and Iterables
+    - Lists of 
+    - Different Ways of Creating Arrays
+    - Working with Arrays - A Deep Dive!
+    - Important Array Methods
+    - Other Iterables: Maps & Sets
   - [ ] 184 02 What are "Iterables" & "Array-like Objects"? | 02:11
   - [ ] 185 03 Creating Arrays | 08:55
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
