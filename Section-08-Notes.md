@@ -40,6 +40,8 @@ const moreNumbers = new Array(1, 5); // Array of length 2
 const moreNumbers = new Array(5); // Array of length 5, with empty elements
 
 const yetMoreNumbers = new Array.of(1, 2); // Slower performance
+
+const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-like objects as parameters
 ```
 
   - [ ] 186 04 Which Data Can You Store In Arrays? | 03:47
