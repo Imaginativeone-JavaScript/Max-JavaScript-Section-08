@@ -65,6 +65,18 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
     - Arrays are "index-based"
     
   - [ ] 187 05 push(), pop(), unshift(), shift() - Adding & Removing Elements | 06:59
+  
+  ```javascript
+  const hobbies = ['Sports', 'Cooking'];
+  hobbies.push('Reading'); // Added to the end of the array
+  
+  hobbies.unshift('Coding'); // Added to the beginning of the array
+  
+  hobbies.pop(); // The last element of the array was removed
+  const poppedValue = hobbies.pop() // Just in case I need to know what was removed
+  
+  hobbies.shift(); // Removes the first element of the array
+  ```
   - [ ] 188 06 The splice() Method | 05:37
   - [ ] 189 07 Selecting Ranges & Creating Copies with slice() | 06:06
   - [ ] 190 08 Adding Arrays to Arrays with concat() | 02:23
