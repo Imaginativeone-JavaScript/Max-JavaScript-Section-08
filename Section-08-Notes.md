@@ -119,6 +119,37 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
   - Great with primitives, reference values...not so great with those
   
   - [ ] 192 10 Finding Stuff: find() and findIndex() | 05:20
+  
+  - find()
+  
+  ```javascript
+  const personData = [{ name: 'Doug' }, { name: 'Gilberto' }];
+  const doug = personData.find((person, index, persons) => {
+    // JavaScript will call this anonymous function for me
+    // On every element in personData
+    
+    // returns after the first hit
+    return person.name === 'Doug';
+  });
+  
+  console.log(Doug); // returns name: 'Doug'
+  
+  // find() does not create a copy
+  ```
+  
+  -findIndex()
+  ```javascript
+  const dougIndex = personData.findIndex((person, index, persons) => {
+    // JavaScript will call this anonymous function for me
+    // On every element in personData
+    
+    // returns after the first hit
+    return person.name === 'Doug';
+  });
+
+console.log(dougIndex); // returns 0
+```
+  
   - [ ] 193 11 Is it Included? | 01:20
   - [ ] 194 12 Alt to for Loops: The forEach() Method | 04:24
   - [ ] 195 13 Transforming Data with map() | 02:38
