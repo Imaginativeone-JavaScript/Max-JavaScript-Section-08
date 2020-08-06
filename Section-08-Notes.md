@@ -216,8 +216,12 @@ console.log(dougIndex); // returns 0
   
   - [ ] 198 16 Where Arrow Functions Shine! | 01:31
   
+  ```javascript
+  const filteredArray = prices.filter(price => price > 6);
+  ```
   
   - [ ] 199 17 The Important reduce() Method | 07:33
+  
   - [ ] 200 18 Chaining Methods in JavaScript | 00:48
   - [ ] 201 19 Arrays & Strings - split() and join() | 04:21
   - [ ] 202 20 The Spread Operator (...) | 10:31
