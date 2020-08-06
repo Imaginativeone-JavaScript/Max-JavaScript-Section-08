@@ -109,6 +109,15 @@ const moreNumbers = new Array.from(iterable); // Only accepts iterables/array-li
   ```
   
   - [ ] 191 09 Rtrvg Idxes w indexOf() & lastIndexOf() | 03:47
+  
+  ```javascript
+  const testResults.indexOf(1.5); // Finds the FIRST INSTANCE of the value I want the index of
+  
+  // lastIndexOf starts from the right
+  ```
+  
+  - Great with primitives, reference values...not so great with those
+  
   - [ ] 192 10 Finding Stuff: find() and findIndex() | 05:20
   - [ ] 193 11 Is it Included? | 01:20
   - [ ] 194 12 Alt to for Loops: The forEach() Method | 04:24
