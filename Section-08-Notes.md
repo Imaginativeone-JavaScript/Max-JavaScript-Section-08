@@ -345,5 +345,7 @@ console.log(dougIndex); // returns 0
   ```
     
   - [ ] 209 27 Understanding WeakMap | 02:51
+    - It's a Map, easily garbage-collected when not used
+    
   - [ ] 210 Wrap Up | 01:25
   - [ ] Useful Resources & Links | 00:12
