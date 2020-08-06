@@ -151,7 +151,27 @@ console.log(dougIndex); // returns 0
 ```
   
   - [ ] 193 11 Is it Included? | 01:20
+  
+  ```javascript
+  const incl = testResults.includes(10.99); // works on primitives
+  ```
   - [ ] 194 12 Alt to for Loops: The forEach() Method | 04:24
+  
+  ```javascript
+  const prices = [10.99, 5.99, 3.99, 6.59];
+  
+  const tax = 0.19;
+  
+  const taxAdjustedPrices = [];
+  
+  // Could use a for-of loop...
+  
+  prices.forEach((price, idx, prices) => {
+    const priceObj = { index: idx, taxAdjustPrices.push(price * (1 + tax)); }
+    taxAdjustPrices.push(priceObj);
+  });
+  ```
+  
   - [ ] 195 13 Transforming Data with map() | 02:38
   - [ ] 196 14 sort()ing and reverse()ing | 04:15
   - [ ] 197 15 Filtering Arrays with filter() | 02:35
