@@ -273,6 +273,22 @@ console.log(dougIndex); // returns 0
   ```
   
   - [ ] 204 22 Maps & Sets - Overview | 04:16
+  
+    - Arrays
+      - nested, data of any kind and length
+      - iterable, many methods available
+      - order is guaranteed, duplicates allowed, zero-based index access
+    - Sets
+      - nested, data of any kind and length
+      - iterable, some special set methods
+      - order is NOT guaranteed, duplicates are NOT allowed
+      - no index-based access
+    - Maps
+      - store key-value data of any kind and length
+        - any key values are allowed
+      - iterable, some special map methods
+      - order is guaranteed, duplicate keys are not allowed, key-based access
+  
   - [ ] 205 23 Working with Sets | 07:21
   - [ ] 206 24 Working with Maps | 09:30
   - [ ] 207 25 Maps vs Objects | 03:41
