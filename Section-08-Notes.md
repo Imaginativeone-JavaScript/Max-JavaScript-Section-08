@@ -333,6 +333,17 @@ console.log(dougIndex); // returns 0
       - Easier/quicker to create
       
   - [ ] 208 26 Understanding WeakSet | 04:50
+  
+  ```javascript
+  let person = { name: 'Max' }
+  
+  persons = new WeakSet();
+  persons.add(person);
+  
+  // Applications where I store data in a set, where I eventually will let of data
+  // Easily garbage-collected
+  ```
+    
   - [ ] 209 27 Understanding WeakMap | 02:51
   - [ ] 210 Wrap Up | 01:25
   - [ ] Useful Resources & Links | 00:12
