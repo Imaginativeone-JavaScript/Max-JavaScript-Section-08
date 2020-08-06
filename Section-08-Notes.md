@@ -262,13 +262,21 @@ console.log(dougIndex); // returns 0
   ```
   
   - [ ] 203 21 Understanding Array Destructuring | 04:24
+  
+  ```javascript
+  const nameData = ['Doug', 'Frank', 'Mr.', 10];
+
+  // const firstName = nameData[0];
+  // const lastName = nameData[1];
+  
+  const [firstName, lastName, ...otherInformation] = nameData;
+  ```
+  
   - [ ] 204 22 Maps & Sets - Overview | 04:16
   - [ ] 205 23 Working with Sets | 07:21
   - [ ] 206 24 Working with Maps | 09:30
   - [ ] 207 25 Maps vs Objects | 03:41
   - [ ] 208 26 Understanding WeakSet | 04:50
   - [ ] 209 27 Understanding WeakMap | 02:51
-  - [ ] Time to Practice: Arrays & Iterables
-  - [ ] 1 question
   - [ ] 210 Wrap Up | 01:25
   - [ ] Useful Resources & Links | 00:12
