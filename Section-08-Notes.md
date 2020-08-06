@@ -159,9 +159,7 @@ console.log(dougIndex); // returns 0
   
   ```javascript
   const prices = [10.99, 5.99, 3.99, 6.59];
-  
   const tax = 0.19;
-  
   const taxAdjustedPrices = [];
   
   // Could use a for-of loop...
@@ -173,7 +171,38 @@ console.log(dougIndex); // returns 0
   ```
   
   - [ ] 195 13 Transforming Data with map() | 02:38
+  
+  ```javascript
+  const prices = [10.99, 5.99, 3.99, 6.59];
+  const tax = 0.19;
+    
+  prices.map((price, idx, prices) => {
+    const priceObj = { index: idx, taxAdjustPrices.push(price * (1 + tax)); }
+    taxAdjustPrices.push(priceObj); // Returns a NEW element for a NEW array
+  });  
+  ```
+  
   - [ ] 196 14 sort()ing and reverse()ing | 04:15
+  ```javascript
+  const prices = [10.99, 5.99, 3.99, 6.59];
+  const tax = 0.19;
+
+  const sortedPrices = prices.sort(); // Sorts the array (by converting to a string [default])
+  const sortedPrices = prices.sort((a, b) => {
+    // sort logic
+    if (a > b) {
+      return 1;
+    } else if (a === b) {
+      return 0;    
+    } else {
+      return -1;
+    }
+  });
+  
+  // reverse();
+  const sortedPrices = prices.reverse();
+  ```
+  
   - [ ] 197 15 Filtering Arrays with filter() | 02:35
   - [ ] 198 16 Where Arrow Functions Shine! | 01:31
   - [ ] 199 17 The Important reduce() Method | 07:33
