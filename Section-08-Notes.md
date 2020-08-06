@@ -321,6 +321,17 @@ console.log(dougIndex); // returns 0
   ```
     
   - [ ] 207 25 Maps vs Objects | 03:41
+    - Maps
+      - Can use ANY values (and types) as keys
+      - Better performance for large quantities of data
+      - Better performance for adding/removing data frequently
+      - Niche cases where it can shine
+      
+    - Objects
+      - Only may use strings, numbers, or symbols as keys
+      - Perfect for small/medium-sized sets of data
+      - Easier/quicker to create
+      
   - [ ] 208 26 Understanding WeakSet | 04:50
   - [ ] 209 27 Understanding WeakMap | 02:51
   - [ ] 210 Wrap Up | 01:25
