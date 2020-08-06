@@ -222,8 +222,32 @@ console.log(dougIndex); // returns 0
   
   - [ ] 199 17 The Important reduce() Method | 07:33
   
+  ```javascript
+  // let sum = 0;
+  
+  // prices.forEach((price) => {
+  //  sum += price
+  // });
+  
+  // console.log(sum);
+  
+  const sum = prices.reduce((prevValue, currValue, curIndex, prices) => {
+    return prevValue + curValue;
+  }, 0); // optional 2nd argument; initial value
+  ```
+  
   - [ ] 200 18 Chaining Methods in JavaScript | 00:48
+  
   - [ ] 201 19 Arrays & Strings - split() and join() | 04:21
+  
+  ```javascript
+  const data = 'new york;10.99;2000';
+  const transformedData = data.split(';'); // array with 3  elements
+  
+  const nameFragments = ['Doug', 'Frank'];
+  const name = nameFragments.join(' '); // default separator is ','
+  ```
+  
   - [ ] 202 20 The Spread Operator (...) | 10:31
   - [ ] 203 21 Understanding Array Destructuring | 04:24
   - [ ] 204 22 Maps & Sets - Overview | 04:16
