@@ -249,6 +249,18 @@ console.log(dougIndex); // returns 0
   ```
   
   - [ ] 202 20 The Spread Operator (...) | 10:31
+  
+  ```javascript
+  const copiedNameFragments = [...nameFragments];
+  console.log(copiedNameFragments);
+  
+  Math.min(1, 5, -3); // -3, works with numbers, not arrays
+  
+  Math.min(...prices); // The spread operator makes the VALUES available
+  
+  For two distinctly different arrays, use map()
+  ```
+  
   - [ ] 203 21 Understanding Array Destructuring | 04:24
   - [ ] 204 22 Maps & Sets - Overview | 04:16
   - [ ] 205 23 Working with Sets | 07:21
