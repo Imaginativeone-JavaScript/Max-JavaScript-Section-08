@@ -305,6 +305,21 @@ console.log(dougIndex); // returns 0
   ```
   
   - [ ] 206 24 Working with Maps | 09:30
+  
+  ```javascript
+  const person1 = { name: 'Max' }
+  const person2 = { name: 'Manuel' }
+  
+  // Adding extra information, without affecting the original object
+  // const personData = new Map([['key', 'some value']]);
+  const personData = new Map([[person1, [{ date: 'yesterday', price: 10}]]]);
+  
+  console.log(personData);
+  console.log(personData.get(person1));
+  
+  personData.set(person2, [{ date: '2 weeks ago', price: 10}]);
+  ```
+    
   - [ ] 207 25 Maps vs Objects | 03:41
   - [ ] 208 26 Understanding WeakSet | 04:50
   - [ ] 209 27 Understanding WeakMap | 02:51
