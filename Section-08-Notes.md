@@ -290,6 +290,20 @@ console.log(dougIndex); // returns 0
       - order is guaranteed, duplicate keys are not allowed, key-based access
   
   - [ ] 205 23 Working with Sets | 07:21
+  
+  ```javascript
+  const ids = new Set([1, 2, 3]); // any iterable, ids[0] is undefined
+  
+  console.log(ids.has(1)); // true or false
+  
+  ids.add(2); // 2 is already there
+  
+  ids.entries(); // returns an iterable, value twice? workable with maps
+  ids.values();
+  
+  ids.delete(); // deleting non-existent values...ignored
+  ```
+  
   - [ ] 206 24 Working with Maps | 09:30
   - [ ] 207 25 Maps vs Objects | 03:41
   - [ ] 208 26 Understanding WeakSet | 04:50
