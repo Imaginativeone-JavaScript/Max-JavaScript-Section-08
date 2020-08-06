@@ -204,7 +204,19 @@ console.log(dougIndex); // returns 0
   ```
   
   - [ ] 197 15 Filtering Arrays with filter() | 02:35
+  
+  - A NEW array is created
+  
+  ```javascript
+  const filteredArray = prices.filter((price, idx, prices) => {
+    // returns true or false
+    return price > 6;
+  });
+  ```
+  
   - [ ] 198 16 Where Arrow Functions Shine! | 01:31
+  
+  
   - [ ] 199 17 The Important reduce() Method | 07:33
   - [ ] 200 18 Chaining Methods in JavaScript | 00:48
   - [ ] 201 19 Arrays & Strings - split() and join() | 04:21
